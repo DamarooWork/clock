@@ -5,13 +5,31 @@
     box-sizing: border-box;
 }
 body{
+
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #091921;
+    
+}
+.text, a{
+     display: flex;
+    font-size: 40px;
+    /* color: #a83232; */
+    text-decoration: none;
+    margin-right: 40px; 
+}
+/* a:hover{
+ 
+ color: #a85332;
+ 
+} */
+a{
+    color: black;
 }
 .clock{
+
     width: 350px;
     height: 350px;
     display: flex;
